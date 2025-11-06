@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Test Suite">
+    <test name="All Tests">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+    <parameter name="login" value="yana@coursy.io"/>
+    <parameter name="password" value="69Snowdrops'"/>
+    <parameter name= "linkToEmployeePortal" value="https://dev.coursy.io/prelive/login/"/>
+    <parameter name= "loginEmployee" value = "yana.itani+42@gmail.com"/>
+
+
+</suite>
